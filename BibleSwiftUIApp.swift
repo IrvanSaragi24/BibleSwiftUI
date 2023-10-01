@@ -9,10 +9,14 @@ import SwiftUI
 
 @main
 struct BibleSwiftUIApp: App {
-    @StateObject var appData = AplicationData()
+    @StateObject var appData = ApplicationData()
     var body: some Scene {
         WindowGroup {
-            MVVMview(dataApp: appData)
+//            MVVMview(dataApp: appData)
+//            ListForEachView()
+//            LazyGirdView()
+            ListView()
+                .environmentObject(appData)
         }
     }
 }
