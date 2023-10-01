@@ -25,6 +25,11 @@
 		E299037A2AC8920500ABADB5 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29903792AC8920500ABADB5 /* SectionView.swift */; };
 		E299037C2AC9424800ABADB5 /* EditListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299037B2AC9424800ABADB5 /* EditListButton.swift */; };
 		E299037E2AC956FD00ABADB5 /* OutlineListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299037D2AC956FD00ABADB5 /* OutlineListView.swift */; };
+		E29903812AC95F3700ABADB5 /* DataListTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29903802AC95F3700ABADB5 /* DataListTables.swift */; };
+		E29903832AC9600700ABADB5 /* TablesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29903822AC9600700ABADB5 /* TablesView.swift */; };
+		E29903862AC97A0200ABADB5 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29903852AC97A0200ABADB5 /* PickerView.swift */; };
+		E29903882AC97CD000ABADB5 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29903872AC97CD000ABADB5 /* DatePickerView.swift */; };
+		E299038B2AC980FB00ABADB5 /* FromViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E299038A2AC980FB00ABADB5 /* FromViews.swift */; };
 		E2B8480E2AC5DEFB00380E37 /* ListForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B8480D2AC5DEFB00380E37 /* ListForEachView.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +53,11 @@
 		E29903792AC8920500ABADB5 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		E299037B2AC9424800ABADB5 /* EditListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListButton.swift; sourceTree = "<group>"; };
 		E299037D2AC956FD00ABADB5 /* OutlineListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineListView.swift; sourceTree = "<group>"; };
+		E29903802AC95F3700ABADB5 /* DataListTables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListTables.swift; sourceTree = "<group>"; };
+		E29903822AC9600700ABADB5 /* TablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablesView.swift; sourceTree = "<group>"; };
+		E29903852AC97A0200ABADB5 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		E29903872AC97CD000ABADB5 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		E299038A2AC980FB00ABADB5 /* FromViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromViews.swift; sourceTree = "<group>"; };
 		E2B8480D2AC5DEFB00380E37 /* ListForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListForEachView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -90,7 +100,10 @@
 				E276209A2AB7D0F800C00C59 /* BindingView.swift */,
 				E276209C2AB7D28C00C00C59 /* BindingStrutView.swift */,
 				E276209E2AB7EED100C00C59 /* EnvironmentView.swift */,
-				E29903722AC808CA00ABADB5 /* LearnList */,
+				E29903892AC980E300ABADB5 /* Form */,
+				E29903842AC979DA00ABADB5 /* Picker */,
+				E299037F2AC95EFF00ABADB5 /* Tables */,
+				E29903722AC808CA00ABADB5 /* List */,
 				E276208A2AB7105600C00C59 /* Assets.xcassets */,
 				E276208C2AB7105600C00C59 /* Preview Content */,
 			);
@@ -114,7 +127,7 @@
 			path = MVVM;
 			sourceTree = "<group>";
 		};
-		E29903722AC808CA00ABADB5 /* LearnList */ = {
+		E29903722AC808CA00ABADB5 /* List */ = {
 			isa = PBXGroup;
 			children = (
 				E29903732AC808DD00ABADB5 /* ListData.swift */,
@@ -125,7 +138,33 @@
 				E299037B2AC9424800ABADB5 /* EditListButton.swift */,
 				E299037D2AC956FD00ABADB5 /* OutlineListView.swift */,
 			);
-			path = LearnList;
+			path = List;
+			sourceTree = "<group>";
+		};
+		E299037F2AC95EFF00ABADB5 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				E29903802AC95F3700ABADB5 /* DataListTables.swift */,
+				E29903822AC9600700ABADB5 /* TablesView.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		E29903842AC979DA00ABADB5 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				E29903852AC97A0200ABADB5 /* PickerView.swift */,
+				E29903872AC97CD000ABADB5 /* DatePickerView.swift */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		E29903892AC980E300ABADB5 /* Form */ = {
+			isa = PBXGroup;
+			children = (
+				E299038A2AC980FB00ABADB5 /* FromViews.swift */,
+			);
+			path = Form;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E29903832AC9600700ABADB5 /* TablesView.swift in Sources */,
 				E29903762AC8357900ABADB5 /*  LazyGirdView.swift in Sources */,
 				E276209F2AB7EED100C00C59 /* EnvironmentView.swift in Sources */,
 				E299037A2AC8920500ABADB5 /* SectionView.swift in Sources */,
@@ -205,14 +245,18 @@
 				E27620A42ABAA11900C00C59 /* MVVMview.swift in Sources */,
 				E27620992AB7C77000C00C59 /* StateView.swift in Sources */,
 				E276209D2AB7D28C00C00C59 /* BindingStrutView.swift in Sources */,
+				E299038B2AC980FB00ABADB5 /* FromViews.swift in Sources */,
+				E29903862AC97A0200ABADB5 /* PickerView.swift in Sources */,
 				E276209B2AB7D0F800C00C59 /* BindingView.swift in Sources */,
 				E2B8480E2AC5DEFB00380E37 /* ListForEachView.swift in Sources */,
 				E27620972AB7C72100C00C59 /* CostumView.swift in Sources */,
+				E29903812AC95F3700ABADB5 /* DataListTables.swift in Sources */,
 				E27620A22ABAA02A00C00C59 /* ModelA.swift in Sources */,
 				E299037E2AC956FD00ABADB5 /* OutlineListView.swift in Sources */,
 				E29903782AC86C8600ABADB5 /* ListView.swift in Sources */,
 				E27620892AB7105500C00C59 /* ContentView.swift in Sources */,
 				E299037C2AC9424800ABADB5 /* EditListButton.swift in Sources */,
+				E29903882AC97CD000ABADB5 /* DatePickerView.swift in Sources */,
 				E27620872AB7105500C00C59 /* BibleSwiftUIApp.swift in Sources */,
 				E29903742AC808DD00ABADB5 /* ListData.swift in Sources */,
 			);
@@ -355,6 +399,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,6 +429,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
