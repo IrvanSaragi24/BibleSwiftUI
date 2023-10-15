@@ -15,7 +15,8 @@ struct BibleSwiftUIApp: App {
 //            MVVMview(dataApp: appData)
 //            ListForEachView()
 //            LazyGirdView()
-            ListView()
+//            ListView()
+            NavigationLinkView()
                 .environmentObject(appData)
         }
     }
